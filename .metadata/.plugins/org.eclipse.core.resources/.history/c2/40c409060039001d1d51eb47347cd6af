@@ -1,0 +1,16 @@
+package Student_Console;
+
+import java.util.ArrayList;
+import java.sql.Connection;
+
+public interface IStudent {
+	boolean delStudent(String id);
+	Connection getCon();
+	ArrayList<Student> getListStudent();
+	ArrayList<Student> getStudent_byClass(String ClassID, boolean gender);
+	ArrayList<Student> getStudent_byClass_gender(String ClassID, boolean gender);
+	Student getStudent_byId(String id);
+	boolean insertStudent(String id, String name, String gender, String classId, String address, Double mark );
+
+
+}

@@ -1,0 +1,23 @@
+package Student_Console;
+
+public class Student {
+	private String id;
+	private String name;
+	private String classID;
+	private String gender;
+	private String address;
+	private Double mark;
+	
+	public Student () {
+		super();
+	}
+	public Student (	private String id,
+	 String name,
+	 String classID,
+	 String gender,
+	String address,
+	 Double mark) {
+		super();
+		
+	}
+}

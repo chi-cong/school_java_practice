@@ -1,0 +1,5 @@
+package Student_Console;
+
+public interface IStudent {
+
+}

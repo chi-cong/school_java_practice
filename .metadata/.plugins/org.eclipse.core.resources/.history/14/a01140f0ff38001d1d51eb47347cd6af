@@ -1,0 +1,9 @@
+package Student_Console;
+
+import java.util.ArrayList;
+import java.sql.Connection;
+
+public interface IStudent {
+	boolean delStudent(String id);
+	
+}
