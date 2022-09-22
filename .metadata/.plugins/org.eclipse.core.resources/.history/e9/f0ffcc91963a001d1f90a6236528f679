@@ -1,0 +1,15 @@
+package Student_Console;
+
+import java.sql.Connection;
+import java.util.ArrayList;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Process_student a  = new Process_student();
+		ArrayList<Student> b = a.getListStudent();
+		System.out.print(b);
+
+	}
+
+}

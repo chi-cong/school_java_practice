@@ -1,0 +1,13 @@
+package Student_Console;
+
+import java.sql.Connection;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Process_student a  = new Process_student();
+		Connection b = a.getCon();
+
+	}
+
+}
