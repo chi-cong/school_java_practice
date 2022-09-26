@@ -12,6 +12,11 @@ import java.sql.ResultSet;
 
 public class Process_student implements IStudent {
 
+	public boolean delStudent(String id) {
+		                 
+		return false;
+	}
+
 	public Connection getCon() {
 		String url = "jdbc:mysql://localhost:3306/db_student";
 		String userName = "root";
@@ -169,16 +174,6 @@ public class Process_student implements IStudent {
 		return false;
 	}
 	
-	public boolean delStudent(String id) {
-		Connection conn = getCon();
-		String delCommand = "delete from tb_student where id = '?'";
-		try {
-			PreparedStatement statement = conn.prepareStatement(delCommand);
-			statement.setString(1, id);
-			int delRow = statement.executeUpdate();
-		} catch ( SQLException e) {
-			System.out.print(e);
-		}
-		return false;
-	}
+	
+
 }

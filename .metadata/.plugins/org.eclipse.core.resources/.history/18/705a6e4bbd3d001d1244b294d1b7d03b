@@ -3,7 +3,6 @@ package Student_Console;
 import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.Scanner;
-import com.
 
 public class Test {
 	static Process_student ps  = new Process_student();
@@ -24,7 +23,7 @@ public class Test {
 	}
 	
 	public static void displayStudent(String classId) {
-		ArrayList<Student> studentList = ps.getStudent_byClass(classId);
+		ps.getStudent_byClass(classId);
 	}
 	
 	public static void insertStudent(String id, String name, String gender, String classId, String address, Double mark) {

@@ -12,6 +12,11 @@ import java.sql.ResultSet;
 
 public class Process_student implements IStudent {
 
+	public boolean delStudent(String id) {
+		                 
+		return false;
+	}
+
 	public Connection getCon() {
 		String url = "jdbc:mysql://localhost:3306/db_student";
 		String userName = "root";
