@@ -3,7 +3,6 @@ package Student_Console;
 import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.Scanner;
-import com.
 
 public class Test {
 	static Process_student ps  = new Process_student();
